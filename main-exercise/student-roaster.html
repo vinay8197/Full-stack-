@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>student</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script type="text/javascript" >
+function add(){
+  var num=Number(prompt("enter the number of students added"))
+
+  for (var i = 0; i < num; i++) {
+    var name=prompt("enter the student name")
+    stdName.push(name)
+    }
+}
+function remove(){
+  var ele=prompt("enter the element remove at first,last or position")
+  if(ele=="first"){
+    stdName.shift()
+  }else{
+    if(ele=="last"){
+      stdName.pop()
+    }else{if(ele=="position"){
+      var pos=Number(prompt("enter position"))
+      stdName.splice(pos,1)
+    }
+  }
+  }
+}
+function display(){
+  alert(stdName)
+}
+function quit(){
+exit(0)
+}
+
+var stdName=[]
+</script>
+  </head>
+
+<body style="background:aqua">
+<div class="container">
+
+
+    <h1 style="text-align:center;font-family: 'Anton', sans-serif;color:#c40ddd;background:#f6dfae;">STUDENT ROSTER</h1>
+    <div class="jumbotron" style="background:powderblue">
+      <p style="font-family: 'Parisienne', cursive;color:#005700;font-size:20px;">create a web app that contain students file in .js file the website will promt you to four commands</p>
+      <ol style="background:#80d1f1;">
+         <li style="color:#0000ad" onclick=add() >Add</li>
+         <li style="color:#00a800" onclick=remove() >Remove</li>
+         <li style="color:#570000" onclick=display() >Display</li>
+         <li style="color:red"  onclick=quit()>quit</li>
+      </ol>
+     </div>
+ </div>
+</body>
+</html>

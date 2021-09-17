@@ -1,0 +1,31 @@
+.firstdiv{
+  background:url(https://tse4.mm.bing.net/th?id=OIP.vis5AWeK6SyQlAmNKLGmLwHaEK&pid=Api&P=0&w=324&h=183);
+  color:blue;
+  border:8px solid red;
+}
+.seconddiv{
+  color:rgb(72, 6, 30);
+  background-color: rgba(30, 6, 72, 0.5);
+  border:8px solid blue;
+}
+h3
+{
+  color:red;
+  background-color: yellow;
+}
+li{
+  color:pink;
+  background-color: #ff00cd;
+}
+body{
+  background:#e8ace8;
+}
+{
+  color:#04e0c9;
+  background-color: #f1bb47;
+}
+ul{
+
+  background: red;
+  border:6px solid #b05060;
+}

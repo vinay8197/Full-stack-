@@ -1,0 +1,35 @@
+h1
+{
+  text-align:center;
+}
+table{
+
+border: 10px solid blue;
+padding:20px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+td{
+background:violet;
+  border:2px solid violet;
+  height:300px;
+  width:60px;
+  text-align: center;
+}
+#t1{background: red;
+}
+#t2
+{
+  background: blue;
+}
+#t3
+{
+  background: pink;
+}
+#t4{
+  background:orange;
+}
+#t5{
+  background: tomato;
+}

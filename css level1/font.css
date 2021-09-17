@@ -1,0 +1,41 @@
+body{
+  background-image: url(https://images3.alphacoders.com/823/thumb-1920-82317.jpg);
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1
+{
+color:#c20fbf;
+background-color:#eec9ed;
+font-family: 'Roboto', sans-serif;
+font-size:20px;
+text-align: center;
+border:15px solid tomato;
+border-width:thick;
+font-size: 3em;
+
+}
+
+p{
+  border:10px solid red;
+  font-size: 10px ;
+  background-color: #f7f3b0;
+  color:#536ef4;
+  border-width:thin;
+font-weight: lighter;
+font-family: 'Allison', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rampart One', cursive;
+
+}
+#p1{
+border:10px solid #8004ad;
+font-size:2em;
+background-color: pink;
+color:#267a0b;
+border-width: medium;
+font-weight: bolder;
+font-family:'Allison', cursive;
+}

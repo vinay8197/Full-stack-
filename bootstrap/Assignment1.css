@@ -1,0 +1,29 @@
+body{
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-HD-Images.jpg);
+  background-size: cover;
+}
+.container{
+  background-color:pink;
+
+}
+#navbarSupportedContent{
+  background: #8fbed6;
+  border:3px solid #ad0ba7;
+}
+#navbarDropdown{
+  color:red;
+  background:yellow;
+  text-decoration:1px solid blue line-through;
+  border:2px solid #027720;
+}
+#brand{
+    color:#cd06bb;
+    font-size:200%;
+    border:5px solid #f31f88;
+}
+a.dropdown-item{
+  background: pink;
+  color:#4e0c7d;
+  border:2px solid #25b566;
+  text-decoration:underline;
+}

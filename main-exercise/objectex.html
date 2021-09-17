@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>object Assignment</title>
+    <script type="text/javascript">
+    var employe={
+
+      name:prompt("enter employe name"),
+      job:prompt("enter employe job"),
+      age:Number(prompt("enter age of the employe")),
+      nameLength:function(){
+                                return this.name.length
+                              }
+   }
+
+
+  console.log("The length of the employee name is :"+employe.nameLength())
+
+    </script>
+  </head>
+  <body>
+    <h1>create an employe object with name,job,age then add a method called NameLength() that print the length of employe names to the console</h1>
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body{
+  background: yellow;
+  background-size: cover;
+}
+ #hone{
+  background-image:url(https://tse3.mm.bing.net/th?id=OIP.anKqOflJeTzeM4f5vy1eQQHaEK&pid=Api&P=0&w=294&h=166);
+  color:tomato;
+  margin:20px 100px 60px 10px;
+  text-align: center;
+  border:10px solid red;
+  margin-width:20px;
+  font-family: 'Courier Prime', monospace;
+  padding:30px;
+
+
+}
+
+#htwo{
+  background-image:url(https://tse3.mm.bing.net/th?id=OIP.YB-aqhr09Hrz5a3NTebGfQHaEK&pid=Api&P=0&w=289&h=163);
+  color:orange;
+  margin-left:10px ;
+  margin-right:40px;
+  margin-bottom: 40px;
+  margin-top: 140px;
+  border:10px solid blue;
+  text-align: center;
+  padding: 80px;
+  font-family: 'Courier Prime', monospace;
+font-family: 'VT323', monospace;
+}
